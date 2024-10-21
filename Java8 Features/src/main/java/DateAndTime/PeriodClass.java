@@ -7,7 +7,6 @@ public class PeriodClass {
     public static void main(String[] args) {
         Period period = Period.of(2022, 10, 21);
         System.out.println("period : " + period);
-
         Period period1 = Period.ofDays(10);
         System.out.println(period1);
 
